@@ -5,12 +5,12 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=enI3GL6T#YWIvhGq78ZUlMEAXbqDYKPCINjf4Rf1EpCW1-Xq_lGY' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
-SUDO: process.env.SUDO === undefined ? '9473737373,9363636367' : process.env.SUDO,
-SESSION_NAME: process.env.PORT === undefined ? "asitha" : process.env.SESSION_NAME,
-ALIVE_MSG: process.env.ALIVE_MSG === undefined ? "*Hello , I am alive now!!*" : process.env.ALIVE_MSG,
+SUDO: process.env.SUDO === undefined ? '94778716913,9363636367' : process.env.SUDO,
+SESSION_NAME: process.env.PORT === undefined ? "PODDA" : process.env.SESSION_NAME,
+ALIVE_MSG: process.env.ALIVE_MSG === undefined ? "*Hello , I am alive now!! Deploy With ⭕P⃯ᴏᴅᴅ⃑͢ᴀ│x 🐼🍎*" : process.env.ALIVE_MSG,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
