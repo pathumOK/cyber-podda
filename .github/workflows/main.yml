@@ -6,7 +6,7 @@ const crypto = require('crypto');
 async function blackbox(query) {
   const id = crypto.randomBytes(16).toString('hex');
   const data = JSON.stringify({
-    "messages": 
+    "messages"
     [
       {
         "role": "user",
